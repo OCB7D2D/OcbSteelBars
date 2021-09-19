@@ -153,6 +153,9 @@ a different recipe for the outer corner would mean that we cannot include it in 
 
 The in-game icons for the iron material variation are a bit too dark.
 
+Currently the outer and the center blocks work together, but connecting them is not really supported. There is
+an opportunity to include much more specialized blocks, like an outer edge with center edge intersecting (T-shape).
+
 ### A note about in-game performance
 
 I don't really know what the performance implications really are with this mod. I guess that the mesh collider
