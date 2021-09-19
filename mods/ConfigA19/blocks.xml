@@ -1,0 +1,172 @@
+<configs>
+
+	<append xpath="/blocks">
+
+		<!-- Wood variants -->
+
+		<block name="ocbBlockWoodBarsEdge">
+			<property name="Extends" value="woodBarsCentered" />
+			<property name="StabilitySupport" value="true" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Collide" value="melee,movement,rocket,bullet" />
+			<property name="Material" value="Mwood" />
+			<property name="MaxDamage" value="300" />
+			<property name="EconomicValue" value="10" />
+			<property name="DescriptionKey" value="ocbBlockWoodBarsDesc" />
+			<property class="RepairItems">
+				<property name="resourceWood" value="10" />
+			</property>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="ocbBlockIronBarsEdge" />
+				<property name="Item" value="resourceForgedIron"/>
+				<property name="ItemCount" value="10"/>
+				<property name="UpgradeHitCount" value="8" />
+			</property>
+			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?WoodBarsEdgePrefab" />
+			<property name="CustomIcon" value="ocbWoodEdge" />
+		</block>
+
+		<block name="ocbBlockWoodBarsCorner">
+			<property name="Extends" value="ocbBlockWoodBarsEdge" />
+			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?WoodBarsCornerPrefab" />
+			<property name="CustomIcon" value="ocbWoodCorner" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="ocbBlockIronBarsCorner" />
+			</property>
+		</block>
+		<block name="ocbBlockWoodBarsCenterEdge">
+			<property name="Extends" value="ocbBlockWoodBarsEdge" />
+			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?WoodBarsCenterEdgePrefab" />
+			<property name="CustomIcon" value="ocbWoodCenterEdge" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="ocbBlockIronBarsCenterEdge" />
+			</property>
+		</block>
+		<block name="ocbBlockWoodBarsCenterCorner">
+			<property name="Extends" value="ocbBlockWoodBarsEdge" />
+			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?WoodBarsCenterCornerPrefab" />
+			<property name="CustomIcon" value="ocbWoodCenterCorner" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="ocbBlockIronBarsCenterCorner" />
+			</property>
+		</block>
+
+		<block name="ocbBlockWoodBarsVariantHelper">
+			<property name="Extends" value="ocbBlockWoodBarsEdge" />
+			<property name="CustomIcon" value="ocbWoodEdge" />
+			<property name="ItemTypeIcon" value="all_blocks" />
+			<property name="SelectAlternates" value="true" />
+			<property name="PlaceAltBlockValue" value="ocbBlockWoodBarsEdge,ocbBlockWoodBarsCorner,ocbBlockWoodBarsCenterEdge,ocbBlockWoodBarsCenterCorner" />
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc" />
+		</block>
+
+		<!-- Iron variants -->
+
+		<block name="ocbBlockIronBarsEdge">
+			<property name="Extends" value="ironBarsCentered" />
+			<property name="StabilitySupport" value="true" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Collide" value="melee,movement,rocket,bullet" />
+			<property name="Material" value="Miron" />
+			<property name="MaxDamage" value="2500" />
+			<property name="EconomicValue" value="20" />
+			<property name="DescriptionKey" value="ocbBlockIronBarsDesc" />
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="10" />
+			</property>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="ocbBlockSteelBarsEdge" />
+				<property name="Item" value="resourceForgedSteel"/>
+				<property name="ItemCount" value="10"/>
+				<property name="UpgradeHitCount" value="12" />
+			</property>
+			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?IronBarsEdgePrefab" />
+			<drop event="Harvest" name="resourceForgedIron" count="0,3" prob="0.2" tag="allHarvest" />
+			<drop event="Harvest" name="resourceScrapIron" count="8,16" prob="0.8" tag="allHarvest" />
+			<drop event="Destroy" name="resourceScrapIron" count="8,16" />
+			<property name="CustomIcon" value="ocbIronEdge" />
+		</block>
+
+		<block name="ocbBlockIronBarsCorner">
+			<property name="Extends" value="ocbBlockIronBarsEdge" />
+			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?IronBarsCornerPrefab" />
+			<property name="CustomIcon" value="ocbIronCorner" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="ocbBlockSteelBarsCorner" />
+			</property>
+		</block>
+		<block name="ocbBlockIronBarsCenterEdge">
+			<property name="Extends" value="ocbBlockIronBarsEdge" />
+			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?IronBarsCenterEdgePrefab" />
+			<property name="CustomIcon" value="ocbIronCenterEdge" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="ocbBlockSteelBarsCenterEdge" />
+			</property>
+		</block>
+		<block name="ocbBlockIronBarsCenterCorner">
+			<property name="Extends" value="ocbBlockIronBarsEdge" />
+			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?IronBarsCenterCornerPrefab" />
+			<property name="CustomIcon" value="ocbIronCenterCorner" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="ocbBlockSteelBarsCenterCorner" />
+			</property>
+		</block>
+
+		<block name="ocbBlockIronBarsVariantHelper">
+			<property name="Extends" value="ocbBlockIronBarsEdge" />
+			<property name="CustomIcon" value="ocbIronEdge" />
+			<property name="ItemTypeIcon" value="all_blocks" />
+			<property name="SelectAlternates" value="true" />
+			<property name="PlaceAltBlockValue" value="ocbBlockIronBarsEdge,ocbBlockIronBarsCorner,ocbBlockIronBarsCenterEdge,ocbBlockIronBarsCenterCorner" />
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc" />
+		</block>
+
+		<!-- Steel variants -->
+
+		<block name="ocbBlockSteelBarsEdge">
+			<property name="Extends" value="ironBarsCentered" />
+			<property name="StabilitySupport" value="true" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Collide" value="melee,movement,rocket,bullet" />
+			<property name="Material" value="Msteel" />
+			<property name="MaxDamage" value="6000" />
+			<property name="EconomicValue" value="50" />
+			<property name="DescriptionKey" value="ocbBlockSteelBarsDesc" />
+			<property class="RepairItems">
+				<property name="resourceForgedSteel" value="10" />
+			</property>
+			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?SteelBarsEdgePrefab" />
+			<drop event="Harvest" name="resourceForgedSteel" count="0,3" prob="0.2" tag="allHarvest" />
+			<drop event="Harvest" name="resourceScrapIron" count="12,24" prob="0.8" tag="allHarvest" />
+			<drop event="Destroy" name="resourceScrapIron" count="12,24" />
+			<property name="CustomIcon" value="ocbSteelEdge" />
+		</block>
+
+		<block name="ocbBlockSteelBarsCorner">
+			<property name="Extends" value="ocbBlockSteelBarsEdge" />
+			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?SteelBarsCornerPrefab" />
+			<property name="CustomIcon" value="ocbSteelCorner" />
+		</block>
+		<block name="ocbBlockSteelBarsCenterEdge">
+			<property name="Extends" value="ocbBlockSteelBarsEdge" />
+			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?SteelBarsCenterEdgePrefab" />
+			<property name="CustomIcon" value="ocbSteelCenterEdge" />
+		</block>
+		<block name="ocbBlockSteelBarsCenterCorner">
+			<property name="Extends" value="ocbBlockSteelBarsEdge" />
+			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?SteelBarsCenterCornerPrefab" />
+			<property name="CustomIcon" value="ocbSteelCenterCorner" />
+		</block>
+
+		<block name="ocbBlockSteelBarsVariantHelper">
+			<property name="Extends" value="ocbBlockSteelBarsEdge" />
+			<property name="CustomIcon" value="ocbSteelEdge" />
+			<property name="ItemTypeIcon" value="all_blocks" />
+			<property name="SelectAlternates" value="true" />
+			<property name="PlaceAltBlockValue" value="ocbBlockSteelBarsEdge,ocbBlockSteelBarsCorner,ocbBlockSteelBarsCenterEdge,ocbBlockSteelBarsCenterCorner" />
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc" />
+		</block>
+
+	</append>
+
+</configs>

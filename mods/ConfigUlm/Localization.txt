@@ -1,0 +1,19 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+ocbBlockWoodBarsVariantHelper,blocks,Block,,,Wood Bars
+ocbBlockIronBarsVariantHelper,blocks,Block,,,Iron Bars
+ocbBlockSteelBarsVariantHelper,blocks,Block,,,Steel Bars
+ocbBlockWoodBarsEdge,blocks,Block,,,Wood Bars Outer Edge
+ocbBlockWoodBarsCorner,blocks,Block,,,Wood Bars Outer Corner
+ocbBlockWoodBarsCenterEdge,blocks,Block,,,Wood Bars Center Edge
+ocbBlockWoodBarsCenterCorner,blocks,Block,,,Wood Bars Center Corner
+ocbBlockIronBarsEdge,blocks,Block,,,Iron Bars Outer Edge
+ocbBlockIronBarsCorner,blocks,Block,,,Iron Bars Outer Corner
+ocbBlockIronBarsCenterEdge,blocks,Block,,,Iron Bars Center Edge
+ocbBlockIronBarsCenterCorner,blocks,Block,,,Iron Bars Center Corner
+ocbBlockSteelBarsEdge,blocks,Block,,,Steel Bars Outer Edge
+ocbBlockSteelBarsCorner,blocks,Block,,,Steel Bars Outer Corner
+ocbBlockSteelBarsCenterEdge,blocks,Block,,,Steel Bars Center Edge
+ocbBlockSteelBarsCenterCorner,blocks,Block,,,Steel Bars Center Corner
+ocbBlockWoodBarsDesc,blocks,Block,,,"You can see, shoot and loot through [decea3]Wood Bars[-] and they offer some protection."
+ocbBlockIronBarsDesc,blocks,Block,,,"You can see, shoot and loot through [decea3]Iron Bars[-] and they offer decent protection."
+ocbBlockSteelBarsDesc,blocks,Block,,,"You can see, shoot and loot through [decea3]Steel Bars[-] and they offer great protection."

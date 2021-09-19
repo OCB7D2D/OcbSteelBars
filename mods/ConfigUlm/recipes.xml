@@ -1,0 +1,70 @@
+<configs>
+	<append xpath="/recipes">
+
+		<recipe name="ocbBlockWoodBarsVariantHelper" count="1" craft_time="4"
+				area="ulmStationCarpenter_2" tags="ulmWorkstationT3">
+			<ingredient name="ulmResourcePlank" count="2" />
+			<ingredient name="ulmResourceStick" value="4" />
+			<ingredient name="ulmResourceResin" count="2" />
+		</recipe>
+
+		<!--
+		<recipe name="ocbBlockWoodBarsEdge" count="1" area="ulmStationCarpenter_1">
+		<ingredient name="ulmResourcePlank" count="2" />
+		</recipe>
+		<recipe name="ocbBlockWoodBarsCorner" count="1" area="ulmStationCarpenter_1">
+		<ingredient name="ulmResourcePlank" count="2" />
+		</recipe>
+		<recipe name="ocbBlockWoodBarsCenterEdge" count="1" area="ulmStationCarpenter_1">
+		<ingredient name="ulmResourcePlank" count="2" />
+		</recipe>
+		<recipe name="ocbBlockWoodBarsCenterCorner" count="1" area="ulmStationCarpenter_1">
+		<ingredient name="ulmResourcePlank" count="2" />
+		</recipe>
+		-->
+
+		<recipe name="ocbBlockIronBarsVariantHelper" count="1" craft_time="8"
+			area="ulmStationForge_1" tags="ulmWorkstationT3">
+			<ingredient name="ulmResourceRebarIron" count="4" />
+		</recipe>
+		<!--
+		<recipe name="ocbBlockIronBarsEdge" count="1" area="ulmStationForge_1">
+		<ingredient name="ulmResourceRebarIron" count="4" />
+		</recipe>
+		<recipe name="ocbBlockIronBarsCorner" count="1" area="ulmStationForge_1">
+		<ingredient name="ulmResourceRebarIron" count="4" />
+		</recipe>
+		<recipe name="ocbBlockIronBarsCenterEdge" count="1" area="ulmStationForge_1">
+		<ingredient name="ulmResourceRebarIron" count="4" />
+		</recipe>
+		<recipe name="ocbBlockIronBarsCenterCorner" count="1" area="ulmStationForge_1">
+		<ingredient name="ulmResourceRebarIron" count="4" />
+		</recipe>
+		-->
+
+		<recipe name="ocbBlockSteelBarsVariantHelper" count="1" craft_time="12"
+				area="ulmStationForge_2" tags="ulmWorkstationT3">
+			<ingredient name="ulmResourceRebarSteel" count="4" />
+		</recipe>
+		<!--
+		<recipe name="ocbBlockSteelBarsEdge" count="1" area="ulmStationForge_2">
+		<ingredient name="ulmResourceRebarSteel" count="4" />
+		</recipe>
+		<recipe name="ocbBlockSteelBarsCorner" count="1" area="ulmStationForge_2">
+		<ingredient name="ulmResourceRebarSteel" count="4" />
+		</recipe>
+		<recipe name="ocbBlockSteelBarsCenterEdge" count="1" area="ulmStationForge_2">
+		<ingredient name="ulmResourceRebarSteel" count="4" />
+		</recipe>
+		<recipe name="ocbBlockSteelBarsCenterCorner" count="1" area="ulmStationForge_2">
+		<ingredient name="ulmResourceRebarSteel" count="4" />
+		</recipe>
+		-->
+
+	</append>
+
+	<!-- remove original recipes of undead legacy (replaced by ours) -->
+	<remove xpath="/recipes/recipe[@name='ulmBlockWoodBarsVariantHelper']"/>
+	<remove xpath="/recipes/recipe[@name='ulmBlockIronBarsVariantHelper']"/>
+
+</configs>

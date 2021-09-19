@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="ocbSteelBars" />
+		<Description value="Wood, Iron and Steel Bar blocks (outer edge/corner and center edge/corner) with looting area" />
+		<Website value="https://github.com/mgreter/7D72-ocbSteelBars" />
+		<Author value="https://github.com/mgreter/" />
+		<Version value="0.7" />
+	</ModInfo>
+</xml>
