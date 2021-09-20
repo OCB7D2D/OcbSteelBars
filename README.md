@@ -162,8 +162,12 @@ I use 16 segments per pole-mesh, which could be reduced (in case this would impr
 
 ### Changelog
 
+- 0.2.2 - A19 recipes adjustments (20.09.2021)
+  - Fixed resource costs for steel bars (was too low)
+  - Added stone as another requirement (because why not)
+  - Craft times and repair consts adjusted accordingly
 - 0.2.1 - Bugfix release (20.09.2021)
-  - Fixed iron-bars to be upgradable by steel-rebars
+  - Fixed iron-bars to be upgradable by steel-rebars (ULM)
 - 0.2.0 - Initial beta release (18.09.2021)
 
 [1]: https://7daystodie.com/

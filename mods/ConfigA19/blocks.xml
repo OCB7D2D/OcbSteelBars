@@ -14,12 +14,12 @@
 			<property name="EconomicValue" value="10" />
 			<property name="DescriptionKey" value="ocbBlockWoodBarsDesc" />
 			<property class="RepairItems">
-				<property name="resourceWood" value="10" />
+				<property name="resourceWood" value="20" />
 			</property>
 			<property class="UpgradeBlock">
 				<property name="ToBlock" value="ocbBlockIronBarsEdge" />
 				<property name="Item" value="resourceForgedIron"/>
-				<property name="ItemCount" value="10"/>
+				<property name="ItemCount" value="15"/>
 				<property name="UpgradeHitCount" value="8" />
 			</property>
 			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?WoodBarsEdgePrefab" />
@@ -72,18 +72,18 @@
 			<property name="EconomicValue" value="20" />
 			<property name="DescriptionKey" value="ocbBlockIronBarsDesc" />
 			<property class="RepairItems">
-				<property name="resourceForgedIron" value="10" />
+				<property name="resourceForgedIron" value="12" />
 			</property>
 			<property class="UpgradeBlock">
 				<property name="ToBlock" value="ocbBlockSteelBarsEdge" />
 				<property name="Item" value="resourceForgedSteel"/>
-				<property name="ItemCount" value="10"/>
+				<property name="ItemCount" value="15"/>
 				<property name="UpgradeHitCount" value="12" />
 			</property>
 			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?IronBarsEdgePrefab" />
 			<drop event="Harvest" name="resourceForgedIron" count="0,3" prob="0.2" tag="allHarvest" />
-			<drop event="Harvest" name="resourceScrapIron" count="8,16" prob="0.8" tag="allHarvest" />
-			<drop event="Destroy" name="resourceScrapIron" count="8,16" />
+			<drop event="Harvest" name="resourceScrapIron" count="16,32" prob="0.8" tag="allHarvest" />
+			<drop event="Destroy" name="resourceScrapIron" count="16,32" />
 			<property name="CustomIcon" value="ocbIronEdge" />
 		</block>
 
@@ -133,12 +133,12 @@
 			<property name="EconomicValue" value="50" />
 			<property name="DescriptionKey" value="ocbBlockSteelBarsDesc" />
 			<property class="RepairItems">
-				<property name="resourceForgedSteel" value="10" />
+				<property name="resourceForgedSteel" value="12" />
 			</property>
 			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?SteelBarsEdgePrefab" />
 			<drop event="Harvest" name="resourceForgedSteel" count="0,3" prob="0.2" tag="allHarvest" />
-			<drop event="Harvest" name="resourceScrapIron" count="12,24" prob="0.8" tag="allHarvest" />
-			<drop event="Destroy" name="resourceScrapIron" count="12,24" />
+			<drop event="Harvest" name="resourceScrapIron" count="24,48" prob="0.8" tag="allHarvest" />
+			<drop event="Destroy" name="resourceScrapIron" count="24,48" />
 			<property name="CustomIcon" value="ocbSteelEdge" />
 		</block>
 

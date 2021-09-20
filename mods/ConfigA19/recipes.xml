@@ -2,21 +2,26 @@
 	<append xpath="/recipes">
 
 		<recipe name="ocbBlockWoodBarsVariantHelper" count="1"
-				craft_area="workbench" material_based="false">
-			<ingredient name="resourceWood" count="10"/>
+				craft_area="workbench" material_based="false"
+				craft_time="20">
+			<ingredient name="resourceWood" count="20"/>
 		</recipe>
 
 		<recipe name="ocbBlockIronBarsVariantHelper" count="1"
-				craft_area="forge" material_based="true">
-			<ingredient name="unit_iron" count="100" />
-			<ingredient name="unit_clay" count="20" />
+				craft_area="forge" material_based="true"
+				craft_time="60">
+			<ingredient name="unit_iron" count="125" />
+			<ingredient name="unit_clay" count="25" />
+			<ingredient name="unit_lead" count="10" />
 		</recipe>
 
 		<recipe name="ocbBlockSteelBarsVariantHelper" count="1"
 				craft_area="forge" material_based="true"
-				craft_tool="toolForgeCrucible">
-			<ingredient name="unit_iron" count="100" />
-			<ingredient name="unit_clay" count="20" />
+				craft_tool="toolForgeCrucible"
+				craft_time="100">
+			<ingredient name="unit_iron" count="300" />
+			<ingredient name="unit_stone" count="200" />
+			<ingredient name="unit_clay" count="30" />
 			<ingredient name="unit_lead" count="20" />
 		</recipe>
 
