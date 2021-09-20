@@ -5,7 +5,7 @@
 		<!-- Wood variants -->
 
 		<block name="ocbBlockWoodBarsEdge">
-			<property name="Extends" value="woodBarsCentered" />
+			<property name="Extends" value="woodBarsCentered" param1="RepairItems" />
 			<property name="StabilitySupport" value="true" />
 			<property name="Shape" value="ModelEntity" />
 			<property name="Collide" value="melee,movement,rocket,bullet" />
@@ -64,7 +64,7 @@
 		<!-- Iron variants -->
 
 		<block name="ocbBlockIronBarsEdge">
-			<property name="Extends" value="ironBarsCentered" />
+			<property name="Extends" value="ironBarsCentered" param1="RepairItems" />
 			<property name="StabilitySupport" value="true" />
 			<property name="Shape" value="ModelEntity" />
 			<property name="Collide" value="melee,movement,rocket,bullet" />
@@ -126,7 +126,7 @@
 		<!-- Steel variants -->
 
 		<block name="ocbBlockSteelBarsEdge">
-			<property name="Extends" value="ironBarsCentered" />
+			<property name="Extends" value="ironBarsCentered" param1="RepairItems" />
 			<property name="StabilitySupport" value="true" />
 			<property name="Shape" value="ModelEntity" />
 			<property name="Collide" value="melee,movement,rocket,bullet" />
@@ -137,7 +137,6 @@
 			<property class="RepairItems">
 				<property name="ulmResourceRebarSteel" value="2" />
 				<property name="resourceForgedSteel" value="4" />
-				<property name="resourceForgedIron" value="0" />
 			</property>
 			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?SteelBarsEdgePrefab" />
 			<drop event="Harvest" name="ulmResourceRebarSteel" count="0,1" prob="0.2" tag="allHarvest" />

@@ -5,7 +5,7 @@
 		<!-- Wood variants -->
 
 		<block name="ocbBlockWoodBarsEdge">
-			<property name="Extends" value="woodBarsCentered" />
+			<property name="Extends" value="woodBarsCentered" param1="RepairItems" />
 			<property name="StabilitySupport" value="true" />
 			<property name="Shape" value="ModelEntity" />
 			<property name="Collide" value="melee,movement,rocket,bullet" />
@@ -63,7 +63,7 @@
 		<!-- Iron variants -->
 
 		<block name="ocbBlockIronBarsEdge">
-			<property name="Extends" value="ironBarsCentered" />
+			<property name="Extends" value="ironBarsCentered" param1="RepairItems" />
 			<property name="StabilitySupport" value="true" />
 			<property name="Shape" value="ModelEntity" />
 			<property name="Collide" value="melee,movement,rocket,bullet" />
@@ -124,7 +124,7 @@
 		<!-- Steel variants -->
 
 		<block name="ocbBlockSteelBarsEdge">
-			<property name="Extends" value="ironBarsCentered" />
+			<property name="Extends" value="ironBarsCentered" param1="RepairItems" />
 			<property name="StabilitySupport" value="true" />
 			<property name="Shape" value="ModelEntity" />
 			<property name="Collide" value="melee,movement,rocket,bullet" />
