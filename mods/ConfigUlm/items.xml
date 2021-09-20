@@ -1,0 +1,6 @@
+<configs>
+
+	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,ulmResourceRebarSteel</append>
+	<append xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,ulmResourceRebarSteel</append>
+
+</configs>

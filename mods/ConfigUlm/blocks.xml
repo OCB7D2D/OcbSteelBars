@@ -78,10 +78,8 @@
 			</property>
 			<property class="UpgradeBlock">
 				<property name="ToBlock" value="ocbBlockSteelBarsEdge" />
-				<!-- There seems to be a bug with ulmResourceRebarSteel -->
-				<!--<property name="Item" value="ulmResourceRebarSteel" />-->
-				<property name="Item" value="resourceForgedSteel"/>
-				<property name="ItemCount" value="2" />
+				<property name="Item" value="ulmResourceRebarSteel" />
+				<property name="ItemCount" value="4" />
 				<property name="UpgradeHitCount" value="12" />
 			</property>
 			<property name="Model" value="#@modfolder:Resources/ocbSteelBars.unity3d?IronBarsEdgePrefab" />
