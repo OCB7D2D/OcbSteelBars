@@ -16,6 +16,12 @@ In constrast to the original SteelBars addon, these blocks/meshes collide with b
 only where the actual bars and poles are). It should make it a bit more challenging to shoot through
 bars and you can also damage them.
 
+For discussions, please use the thread for this mod at the official 7 days to die forum:
+https://community.7daystodie.com/topic/25320-new-steelbar-mod-with-undead-legacy-support
+
+Please report issues and problems directly on GitHub:
+https://github.com/mgreter/ocbSteelBars7D2D/issues/new
+
 ## Installing
 
 If you downloaded the zip archive, you need to extract the mod into the `Mods` folder of your
@@ -69,14 +75,6 @@ license attached. I'm using them in terms of fair-use, but the actual license is
 need to be clarified if you want to re-use it.
 
 ## Known Issues
-
-In Undead Legacy, most iron and steel items are crafted with iron/steel rebars. Therefore I wanted
-the blocks to be upgradable via the same materials, but there seems to be a bug with the steel rebars.
-When you try to upgrade the iron bars to steel bars, the game correctly shows that steel rebars are
-needed, but this happens wether or not you have the items in your inventory!? It all works fine with
-the iron rebars and I fail to see why it should be any different with the steel rebars (both are
-custom resources from the Undead Legacy mod). Will need to ask Subquake if he has any idea.
-For the time being, it will be upgradable with the corresponding amount of steel plating.
 
 The repair cost for steel should not include forged iron (iron plating), but I did not find out
 how to disable this, even though I added an explicit requirement for zero of these items to repair.
@@ -161,6 +159,12 @@ an opportunity to include much more specialized blocks, like an outer edge with 
 I don't really know what the performance implications really are with this mod. I guess that the mesh collider
 should have some performance costs, but I didn't see any significant fps drop with my rig (i9-9900k/GTX 1070 Ti).
 I use 16 segments per pole-mesh, which could be reduced (in case this would improve performance).
+
+### Changelog
+
+- 0.2.1 - Bugfix release (20.09.2021)
+  - Fixed iron-bars to be upgradable by steel-rebars
+- 0.2.0 - Initial beta release (18.09.2021)
 
 [1]: https://7daystodie.com/
 [2]: http://ul.subquake.com/download
