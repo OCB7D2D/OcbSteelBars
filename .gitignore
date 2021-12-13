@@ -3,3 +3,5 @@
 /unity/Log/
 /blender/*.blend1
 /build/
+/.vs
+*.pdb
