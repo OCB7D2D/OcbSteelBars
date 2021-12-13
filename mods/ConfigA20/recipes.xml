@@ -28,9 +28,8 @@
 	</append>
 
 	<!-- remove original recipes (replaced by ours) -->
-	<!-- <remove xpath="/recipes/recipe[@name='woodBars']"/> -->
-	<!-- <remove xpath="/recipes/recipe[@name='woodBarsCentered']"/> -->
 	<remove xpath="/recipes/recipe[@name='ironBars']"/>
+	<remove xpath="/recipes/recipe[@name='ironBarsCNR']"/>
 	<remove xpath="/recipes/recipe[@name='ironBarsCentered']"/>
 
 </configs>
