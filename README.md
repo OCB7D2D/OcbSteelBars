@@ -162,6 +162,11 @@ I use 16 segments per pole-mesh, which could be reduced (in case this would impr
 
 ### Changelog
 
+- 0.8.1 - Remove existing recipies (24.12.2021)
+  - Remove new A20 vanilla corner bar recipes
+- 0.8.0 - A20 harmony refactor (13.12.2021)
+  - Refactor harmony patch for A20 compatibility
+  - Add harmony patch for motion sensor to see through bars
 - 0.2.2 - A19 recipes adjustments (20.09.2021)
   - Fixed repair costs for steel inheriting from iron
   - Fixed resource costs for steel bars (was too low)

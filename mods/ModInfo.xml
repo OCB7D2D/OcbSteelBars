@@ -2,9 +2,9 @@
 <xml>
 	<ModInfo>
 		<Name value="OcbSteelBars" />
-		<Description value="Wood, Iron and Steel Bar blocks (outer edge/corner and center edge/corner) with looting area" />
+		<Description value="Wood, Iron and Steel Bar blocks (outer edge/corner and center edge/corner) with looting area (replacing original recipes)" />
 		<Website value="https://github.com/mgreter/7D72-ocbSteelBars" />
 		<Author value="ocbMaurice" />
-		<Version value="0.8.0" />
+		<Version value="0.8.1" />
 	</ModInfo>
 </xml>
