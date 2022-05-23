@@ -5,7 +5,7 @@
 		<!-- Wood variants -->
 
 		<block name="ocbBlockWoodBarsEdge">
-			<property name="Extends" value="woodBarsCentered" param1="RepairItems" />
+			<property name="Extends" value="ironBarsCentered" param1="RepairItems" />
 			<property name="StabilitySupport" value="true" />
 			<property name="Shape" value="ModelEntity" />
 			<property name="Collide" value="melee,movement,rocket,bullet" />
@@ -15,7 +15,7 @@
 			<property name="DescriptionKey" value="ocbBlockWoodBarsDesc" />
 			<property class="RepairItems">
 				<property name="ulmResourcePlank" value="2" />
-				<property name="ulmResourceStick" value="4" />
+				<property name="ulmResourceBranch" value="4" />
 			</property>
 			<property class="UpgradeBlock">
 				<property name="ToBlock" value="ocbBlockIronBarsEdge" />

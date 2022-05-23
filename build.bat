@@ -33,6 +33,13 @@ xcopy mods\ConfigUlm build\UndeadLegacy_Y_OcbSteelBarsA19\Config\ /E/H
 copy mods\ModInfo.xml build\UndeadLegacy_Y_OcbSteelBarsA19\ModInfo.xml
 copy README.md build\UndeadLegacy_Y_OcbSteelBarsA19\README.md
 
+xcopy mods\Resources build\UndeadLegacy_Y_OcbSteelBarsA20\Resources\ /E/H
+xcopy mods\UIAtlases build\UndeadLegacy_Y_OcbSteelBarsA20\UIAtlases\ /E/H
+xcopy mods\ConfigUlm build\UndeadLegacy_Y_OcbSteelBarsA20\Config\ /E/H
+copy mods\ModInfo.xml build\UndeadLegacy_Y_OcbSteelBarsA20\ModInfo.xml
+copy mods\A20ModApi\OcbSteelBars.dll build\UndeadLegacy_Y_OcbSteelBarsA20\OcbSteelBars.dll
+copy README.md build\UndeadLegacy_Y_OcbSteelBarsA20\README.md
+
 cd build
 
 tar.exe -a -c -f OcbSteelBarsA19EAC.zip OcbSteelBarsA19EAC
@@ -40,6 +47,7 @@ tar.exe -a -c -f OcbSteelBarsA19NonEAC.zip OcbSteelBarsA19NonEAC
 tar.exe -a -c -f OcbSteelBarsA20EAC.zip OcbSteelBarsA20EAC
 tar.exe -a -c -f OcbSteelBarsA20NonEAC.zip OcbSteelBarsA20NonEAC
 tar.exe -a -c -f OcbSteelBarsA19ULM.zip UndeadLegacy_Y_OcbSteelBarsA19
+tar.exe -a -c -f OcbSteelBarsA20ULM.zip UndeadLegacy_Y_OcbSteelBarsA20
 
 cd ..
 
@@ -48,5 +56,6 @@ rmdir build\OcbSteelBarsA19NonEAC /s /q
 rmdir build\OcbSteelBarsA20EAC /s /q
 rmdir build\OcbSteelBarsA20NonEAC /s /q
 rmdir build\UndeadLegacy_Y_OcbSteelBarsA19 /s /q
+rmdir build\UndeadLegacy_Y_OcbSteelBarsA20 /s /q
 
 pause

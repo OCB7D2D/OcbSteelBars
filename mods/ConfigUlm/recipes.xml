@@ -4,7 +4,7 @@
 		<recipe name="ocbBlockWoodBarsVariantHelper" count="1" craft_time="4"
 				area="ulmStationCarpenter_2" tags="ulmWorkstationT3">
 			<ingredient name="ulmResourcePlank" count="2" />
-			<ingredient name="ulmResourceStick" value="4" />
+			<ingredient name="ulmResourceBranch" value="4" />
 			<ingredient name="ulmResourceResin" count="2" />
 		</recipe>
 
@@ -64,7 +64,6 @@
 	</append>
 
 	<!-- remove original recipes of undead legacy (replaced by ours) -->
-	<remove xpath="/recipes/recipe[@name='ulmBlockWoodBarsVariantHelper']"/>
-	<remove xpath="/recipes/recipe[@name='ulmBlockIronBarsVariantHelper']"/>
+	<remove xpath="/recipes/recipe[@name='ulmBlockBarsIronVariantHelper']"/>
 
 </configs>
