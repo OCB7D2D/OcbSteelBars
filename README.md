@@ -74,19 +74,6 @@ Unfortunately the iron texture from the [original SteelBars mod][14] (by Xyth) d
 license attached. I'm using them in terms of fair-use, but the actual license is unclear and may
 need to be clarified if you want to re-use it.
 
-## Known Issues
-
-The repair cost for steel should not include forged iron (iron plating), but I did not find out
-how to disable this, even though I added an explicit requirement for zero of these items to repair.
-I also tried to remove the xml node via xpath remove query, but to no avail. So for now you also
-need iron to repair steel bars.
-
-## Localizations/Translations
-
-I haven't done any translations yet, although I could probably copy some from the original SteelBars mod.
-I could also easily do the german ones, since I'm native german speaker, but just haven't had time to.
-If you want to contribute some translations, feel free to create a pull request at this [github repo][11].
-
 ## Developer resources and some insights
 
 I included the blender and unity project files, hoping they are useful to other people. It took me around
@@ -162,6 +149,7 @@ I use 16 segments per pole-mesh, which could be reduced (in case this would impr
 
 ### Changelog
 
+- 0.9.0 - Update for A21 compatibility
 - 0.8.1 - Remove existing recipies (24.12.2021)
   - Remove new A20 vanilla corner bar recipes
 - 0.8.0 - A20 harmony refactor (13.12.2021)

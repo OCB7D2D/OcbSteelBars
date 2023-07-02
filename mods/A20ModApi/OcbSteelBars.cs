@@ -7,8 +7,8 @@ public class OcbSteelBarsPatch : IModApi
 
     public void InitMod(Mod mod)
     {
-        Debug.Log("Loading OCB Steel Bars Patch: " + GetType().ToString());
-        var harmony = new Harmony(GetType().ToString());
+        Log.Out("OCB Harmony Patch: " + GetType().ToString());
+        Harmony harmony = new Harmony(GetType().ToString());
         harmony.PatchAll(Assembly.GetExecutingAssembly());
     }
 
